@@ -1,12 +1,12 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-def fizzbuzz(number)
-  if number % 3 == 0 && number % 5 == 0 
+def fizzbuzz(int)
+  if int % 3 == 0 && int % 5 == 0 
     return "FizzBuzz"
-  else if number % 5 == 0 
+  else if int % 5 == 0 
     return "Buzz"
-  else if number % 3 == 0 
+  else if int % 3 == 0 
     return "Fizz"
   end
 end 
